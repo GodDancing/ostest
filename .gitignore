@@ -1,0 +1,17 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+
+# Open-source pipeline review artifacts (internal only — never published)
+FORK_REPORT.md
+SANITIZATION_REPORT.md
